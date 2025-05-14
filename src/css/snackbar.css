@@ -1,0 +1,99 @@
+.form {
+  margin-top: 36px;
+  margin-left: 156px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+
+input[name='delay'] {
+  box-sizing: border-box;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  transition: border 250ms;
+}
+
+input[name='delay']:hover {
+  border: 1px solid #000000;
+}
+
+input[name='delay']:active {
+  border: 1px solid #4e75ff;
+}
+
+fieldset {
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 54px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  height: 78px;
+  transition: border 250ms;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  accent-color: #4e75ff;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+fieldset:hover {
+  border: 1px solid #000000;
+}
+
+fieldset:active {
+  border: 1px solid #000000;
+}
+
+.btn-snackbar {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #4e75ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
