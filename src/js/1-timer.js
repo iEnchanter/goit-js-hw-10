@@ -32,7 +32,7 @@ const options = {
                 titleSize: '16px',
                 color: 'red',
                 backgroundColor: '#EF4040',
-                iconUrl: '../img/bi_x-octagon.svg',
+                iconUrl: './img/bi_x-octagon.svg',
                 messageColor: '#FFFFFF',
                 messageSize: '16px',
                 theme: 'dark'
